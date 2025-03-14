@@ -1,0 +1,62 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start of Header */
+header {
+    background-color: #93dfee;
+    font-family: sans-serif;
+}
+/* End of Header */
+
+/* Start of Hero */
+#home {
+    background-image: url("../img/hero-bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shadow {
+    text-shadow: 2px 2px 4px #000000;
+}
+/* End of Hero */
+
+/* Start of About */
+#about {
+    background-color: #f7f7f7;
+}
+/* End of About */
+
+/* Start of Activities */
+#activities {
+    background-color: #dff4f3;
+}
+/* End of Activitites */
+
+/* Back to Top */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 180px;
+    background-color: #93dfee;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    padding: 6px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    transition: opacity 0.3s, transform 0.3s;
+
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    background-color: #4b7178;
+}
+/* End of Back to Top */
